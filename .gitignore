@@ -1,0 +1,40 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment files
+*.env
+*.flaskenv
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Instance folder (contains SQLite DB and config)
+instance/
+
+# Pandas cache or temp files
+*.csv~
+
+# Any backup files
+*.bak
+*.swp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
